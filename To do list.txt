@@ -1,0 +1,46 @@
+Navigation Menu {
+	
+	Home
+	About Us
+	Team
+	Services
+		Alpha
+		Beta
+		Sigma
+	Contact Us
+		FAQ
+		Legal
+	
+}
+
+
+				Home {
+						that slider , its not moving quick , it needs to slide
+						The wording from linda , linda as to fix everything 
+						
+						Fix the padding of that quote
+						
+						Need to fix alot of padding 
+						
+				}
+			
+				About {
+						
+						Need to fix alot of padding 
+						
+						We need to add testimonials
+
+						
+				}
+
+We will not have our works , if something want to see our sh!tt , they need to see our clients sh!!t
+well tell them what we did and stuff 
+
+
+
+Fix the footer for our-legal.html
+Fix all the headers and footer 
+		fix the indication of which page is selected in our-legal.html
+Fix that footer mobile view ,fix those terms of use, when it comes to mobile view // try to have something like apples one		
+
+Finish up home page 		
