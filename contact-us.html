@@ -145,6 +145,122 @@
           </div>
         </div>
 
+        <!-- GOOGLE MAP & CONTACT FORM -->
+              <div class="page-section">
+                <div class="container-fluid">
+                  <div class="row">
+
+                    <div class="col-md-6">
+                      <div class="row row-sm-fix">
+                        <div id="google-map">
+
+                        <iframe
+                          width="920"
+                          height="560"
+                          frameborder="0" style="border:0x; margin-top: 30px; margin-left: 30px;margin-right: 30px;"
+                          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdLutSea0l1F4jlOYJb7pjA7wnIQQNo34&q=kwezi+park,khayelitsha" allowfullscreen>
+                        </iframe></div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="contact-form-cont">
+                        <!-- TITLE -->
+                        <div class="mb-40">
+                          <h3 >Leave a Message</h3>
+                        </div>
+
+                        <!-- CONTACT FORM -->
+                        <div class="relative" >
+                          <form id="contact-form" action="php/contact-form.php" method="POST">
+
+                            <div class="row">
+                              <div class="col-md-12 mb-30">
+                                <!-- <label>Your name *</label> -->
+                                <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="form-control" name="name" id="name" placeholder="Name" required>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-md-12 mb-30">
+                                <!-- <label>Your email address *</label> -->
+                                <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="form-control" name="email" id="email" placeholder="Email" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-md-12 mb-40">
+                                <!-- <label>Message *</label> -->
+                                <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="form-control" name="message" id="message" placeholder="Message" required></textarea>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-md-12 ">
+                                <input type="submit" value="SEND MESSAGE" class="button medium rounded gray font-open-sans" data-loading-text="Loading...">
+                              </div>
+                            </div>
+
+                          </form>
+                          <div class="alert alert-success hidden animated pulse" id="contactSuccess">
+                            Thanks, your message has been sent to us.
+                          </div>
+
+                          <div class="alert alert-danger hidden animated shake" id="contactError">
+                            <strong>Error!</strong> There was an error sending your message.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+        <!-- CONTACT INFO SECTION 2  -->
+       <div id="contact-link" class="page-section p-100-cont bg-gray">
+         <div class="container">
+           <div class="row">
+
+             <div class="col-md-4 col-sm-6">
+               <div class="cis-cont">
+                 <div class="cis-icon">
+                   <div class="icon icon-basic-map"></div>
+                 </div>
+                 <div class="cis-text">
+                   <h3>Address</h3>
+                   <p>790 Folsom Ave, San Francisco</p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4 col-sm-6">
+               <div class="cis-cont">
+                 <div class="cis-icon">
+                   <div class="icon icon-basic-mail"></div>
+                 </div>
+                 <div class="cis-text">
+                   <h3>Email</h3>
+                   <p><a href="mailto:info@elementy.com">info@elementy.com</a></p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4 col-sm-6">
+               <div class="cis-cont">
+                 <div class="cis-icon">
+                   <div class="icon icon-basic-smartphone"></div>
+                 </div>
+                 <div class="cis-text">
+                   <h3>Call Us</h3>
+                   <p>1-800-312-212, 1-800-311-101</p>
+                 </div>
+               </div>
+             </div>
+
+           </div>
+         </div>
+       </div>
+
         <!-- FOOTER 3 FONT MONTSERRAT -->
         <footer id="footer7" class="page-section pt-95 pb-50">
           <div class="container">
